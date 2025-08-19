@@ -1,0 +1,26 @@
+1.express se connect kai 
+2.env file banai 
+2.mongo db se connection karo -database 
+3.app hmko schema banane hai jismain phale modles folder banana hai or fer
+2 type model banange 1.user model  2 . task mode  
+controllers folder mein ek authController.js file banao.
+
+Usme signup/login ka logic banaenge (password hashing, JWT banana, error handle karna).
+
+Phir routes pe wo controller connect karenge.
+
+Ab hum routes banayenge jisse signup aur login controller connect ho sakein (yani endpoints create karenge).
+Step: Signup & Login Routes Setup
+Apne project mein ek folder banao: routes
+
+Usme ek file banao: userRoutes.js
+
+Agla step: Task API (CRUD) aur protected routes.
+Agla Step: "Task" ke liye Controller, Router & Middleware
+1. models/task.js — (Aap bana chuke ho)
+Yeh model pehle hi bana chuke ho.
+
+2. controllers/taskController.js — Naya controller banao
+Is file mein Tasks ke CRUD functions likhoge (Create, Read, Update, Delete).
+
+controllers/taskController.js
